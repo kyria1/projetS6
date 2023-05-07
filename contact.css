@@ -1,0 +1,35 @@
+@import url(commun.css);
+
+h1 {
+    color:var(--couleur-6);
+    text-align: center;
+}
+
+div.infos{
+    padding-top: 50px;
+    margin-top: 300px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+section.infos-bas{
+    margin-left: 300px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 300px;
+}
+.infos-bas div{
+    margin-top:15%;
+    margin-left: 0;
+}
+
+div.infos a{
+    color: black;
+}
+
+iframe{
+    border-radius: 10px;
+}
