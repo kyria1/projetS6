@@ -45,7 +45,6 @@ background: none;
   height: 600px;
     padding:10px;
     margin:auto;
-    margin-bottom: 600px;
 }
 
 .prestations>section{
@@ -59,6 +58,8 @@ background: none;
 .prestations-autres>section{
     margin-left: auto;
     margin-right: auto ;
+    padding-top:10px;
+    padding-bottom:10px;
   background-color: rgba(255, 255, 255, 0.904);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
 }
