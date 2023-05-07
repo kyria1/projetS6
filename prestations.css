@@ -41,6 +41,7 @@ section.prestations{
 
 .prestations-autres {
 background: none;
+    width:600px;
   height: 600px;
     padding:10px;
     margin-bottom: 600px;
