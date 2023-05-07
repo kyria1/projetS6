@@ -13,48 +13,66 @@
 
     </head>
     <body>
+                <a id="haut"></a>
+        <div class="wrapper">
         <nav>
             <ul class="barre-de-menu">
                 <div id="logonav"><a href="index.html"><img src="./images/logo4.png" alt="logo"></a></div>
                 <div> 
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="prestations.html">Prestations</a></li>
+                    <li class="menu-deroulant"><a>Prestations</a>
+                        <ul class="menu-deroulant">
+                            <li><a href="epilations.html">Epilations</a></li>
+                            <li><a href="massages.html">Massages</a></li>
+                            <li><a href="onglerie.html">Onglerie</a></li>
+                            <li><a href="cils.html">Réhaussement de cils</a></li>
+                        </ul>
+                    </li>
                     <li><a href="galerie.html" class="actuel">Galerie photo</a></li>
                     <li><a href="plus.html">En savoir plus</a></li>
-                    <li><a href="contact.html">Contact/rdv</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="rdv"><a href="prendreRDV.html">Prendre rendez-vous</a></li>
                 </div>
             </ul>  
         </nav>
         <main>
             <section class="accroche">
-                <h1>Epilation</h1>
+                <h1>Epilations</h1>
                 <div id="accroche">
                     <p>...Nous vous proposons deux types d'épilation : l'épilation à la cire et l'épilation au fil.</p>
                 </div> 
             </section>
                 
-            <section id="detail">
+            <section class="prestations">
+            <section id="cire">
                 <h3>Epilation à la cire</h3>
-                <div class="detail">
+                                        <img src="./images/epCire.jpg" alt="photo montrant une épilation à la cire">
                     <p>L'épilation à la cire consiste à arracher les poils à la racine. Son action mécanique, par le biais d'une bande en coton non tissée, emprisonne le poil dans la cire, qui est appliquée à une certaine température.</p>
-                    <img src="./images/epCire.jpg" alt="photo montrant une épilation à la cire">
-                </div>
-                <h3>Epilation au fil</h3>
-                <div class="detail">
-                    <p>L'épilation au fil est une méthode ancestrale d'origine indienne et respectueuse de la peau. Elle s'effectue plutôt sur les parties du visage et consiste à emprisonner les poils entre deux fils torsadés en effectuant un mouvement avec la main. Ainsi, le poil ne casse pas car la totalité du bulbe pileux est extraite.</p>
-                    <img src="https://formabelle.fr/content/uploads/2020/08/FormaBelle-Formation-Epilation-au-Fil-scaled.jpg" alt="photo montrant une épilation au fil">
-                </div>
-                <h3>Avantages</h3>
+                <h4>Avantages</h4>
                 <p>Ces deux techniques permettent d'éviter toutes blessures, boutons ou irritations que pourrait causer le rasoir ou la crème dépilatoire. De plus, la repousse est beaucoup plus lente et les poils deviennent, au fur et à mesure des séances, plus fins. </p>
-                <h3>Contre-indications</h3>
+                <h4>Contre-indications</h4>
                 <p>Des poils trop courts sont plus difficile à arracher. En effet, la cire n'adhérera pas correctement aux follicules pilleux. 
                 Nous vous conseillons de les laisser pousser jusqu'à qu'ils atteignent au moins cinq millimètres.
                 Si la zone à épiler est irritée, l'épiler pourrait aggraver son état. Il ne faut donc pas que la peau de la zone à épiler soit irritée au moment de l'épilation.</p>
+                </section>
+
+                <section id="fil">
+                <h3>Epilation au fil</h3>
+                                        <img src="https://formabelle.fr/content/uploads/2020/08/FormaBelle-Formation-Epilation-au-Fil-scaled.jpg" alt="photo montrant une épilation au fil">
+
+                    <p>L'épilation au fil est une méthode ancestrale d'origine indienne et respectueuse de la peau. Elle s'effectue plutôt sur les parties du visage et consiste à emprisonner les poils entre deux fils torsadés en effectuant un mouvement avec la main. Ainsi, le poil ne casse pas car la totalité du bulbe pileux est extraite.</p>
+                    <h4>Avantages</h4>
+                <p>Ces deux techniques permettent d'éviter toutes blessures, boutons ou irritations que pourrait causer le rasoir ou la crème dépilatoire. De plus, la repousse est beaucoup plus lente et les poils deviennent, au fur et à mesure des séances, plus fins. </p>
+                <h4>Contre-indications</h4>
+                <p>Si la zone à épiler est irritée, l'épiler pourrait aggraver son état. Il ne faut donc pas que la peau de la zone à épiler soit irritée au moment de l'épilation.</p>
+                </section>
             </section>
+            
+            
                 
-            <section id="tarif">
+            <section class="tarif-presta">
                 <h3>Tarifs</h3>
-                <div class="prestations">
+                <section id="tarif">
                     <ul>
                         <li>Jambes complètes<span class="tarif">28 €</span></li>
                         <li>3/4 jambes<span class="tarif">20 €</span></li>
@@ -68,42 +86,35 @@
                         <li>Sourcils création de ligne<span class="tarif">12 €</span></li>
                         <li>Sourcils entretien<span class="tarif">8 €</span></li>
                     </ul> 
-                </div>
-                <div class="forfait">
+                </section>
+            </section>
+            <section class="autres">
+                <section id="forfait">
                     <dl>
                         <dt>Forfaits</dt>
                         <dd>Jambes complètes + aisselles + maillot<span class="tarif">8 €</span></dd>
                     </dl> 
-                </div>
-                <div class="offre">
+                </section>
+                <section id="offre">
                     <dl>
                         <dt>Offres</dt>
                         <dd>10 % de remises pour 3 épilations au choix sur un même rendez-vous</dd>
                     </dl> 
-                </div>
+                </section>
             </section>
-                
-            <section class="avis">
-                <h3>Avis des clientes</h3> 
-                <div class="consulter">
-                    <p>Avis....</p>
-                    <a href="avisEpilation.html">Voir plus</a>
-                </div>
-                <div class="poster">
-                    <form action="posterAvis.php" method="post"> 
-                        <button>Poster un avis</button> 
-                    </form> 
-                </div>
-            </section>
+            
+            
         </main>
+        </div>
+        <div class="haut-de-page">
+                <a href="#haut"><img src="./images/haut.png" alt="Lien vers le haut de la page"></a>
+            </div>
         <footer>
             <div id="pieddepage">
                 <a href="mentions.html">Mentions légales</a>
             </div>
         </footer>
+        
+        
     </body>
 </html>
-
-    
-
-
