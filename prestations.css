@@ -3,116 +3,144 @@
 .accroche {
     background: none;
     height:400px;
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
     padding-left: 20px;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 
-.accroche>h1{
-    
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    font-size: 60px;
-    color: #024644;
+.accroche h1 {
+    font-size:60px;
+    font-family: 'Playfair Display', serif;
+    color:var(--couleur-6);
+    text-align: center;
 }
 
 .accroche>#accroche{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
     font-size: 30px;
     padding-top: 20px;
+    text-align:center;
+    text-justify:auto;
 }
 
 img {
     height : 200px;
     display: block;
     margin: auto;
+    border-radius:10px;
 }
 
-#detail , #tarif , .avis{
-    
-    padding : 1em;
-    margin-top: 1em;
+
+section.prestations{
+  background: none;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row: 400px;
+  height: 600px;
+    padding:10px;
+    margin-bottom: 100px;
 }
 
-#detail {
-    height: 950px;
+.prestations-autres {
+background: none;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-row: 400px;
+  height: 600px;
+    padding:10px;
+    margin-bottom: 100px;
 }
 
-#tarif {
-    height: 600px;;
+.prestations>section{
+      margin: 0 auto;
+  margin-right: 10px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
-.avis {
-    height: 250px;;
+.prestations-autres>section{
+margin: 0 auto;
+  margin-right: 10px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
-#detail>h3 , #tarif>h3 , .avis>h3{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    font-size: 30px;
-    color: #024644;
+h3 , th, dt{
+    color:var(--couleur-6);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight:bold;
 }
 
-#detail>h3 {
+p {
+    text-align:justify;
+    padding:10px;
+}
+
+h4 {
+    color:var(--couleur-0);
+    font-family: 'Playfair Display', serif;
     text-align: center;
 }
 
-.detail {
-    display : grid;
-    grid-template-columns: 50% 50%;
-    gap: 1em;
+.tarif-presta {
+    padding : 10px;
+    margin-bottom : 100px;
 }
 
-#detail>p , .detail>p {
-    font-size : 20px;
-    text-align : justify;
+table {
+  margin:auto;
+  border:0px;
+  border-spacing: 10px;
+background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
+  border-radius:10px;
+  padding:10px;
 }
 
-.tarif {
-    float:right;
-    padding-right: 60%;
+th{
+  padding:10px;
 }
 
-li {
-    margin-bottom: 0.25rem;
-    font-size : 20px;
+dt{
+  padding-bottom:10px;
 }
 
-dt {
-    color: var(--couleur-6);
-    margin-bottom: 0.25rem;
-    font-size : 25px;
-    margin-left : 0.5rem;
-    margin-top : 1em;
+td{
+  text-align:justify;
+  padding:10px;
+background-color: var(--couleur-0);
+color:rgba(255, 255, 255, 0.904);
+border-radius:10px;
+font-weight: bold;
 }
 
-dd {
-    margin-left: 2.5rem;
-    margin-bottom: 0.25rem;
-    font-size : 20px;
+td.tarif {
+  font-weight:bold;
+  background-color :transparent;
+  color:var(--couleur-0);
+  text-align:right;
 }
 
-button {
-    background-color: var(--couleur-6);
-    font-size: medium;
-    padding: 10px 24px;
-    margin: 4px 2px;
-    border-radius: 8px;
-    color :rgba(255, 255, 255, 0.637);
-    font-weight: bold;
-    font-family: 'Judson', serif;
-    border-style: none;
+.autres {
+  height: 100px;
+  
 }
 
-button:hover {
-    background-color: var(--couleur-3);
-    cursor: pointer;
+.autres .tarif{
+  margin-left:10px;
 }
 
+.autres>section {
+    margin: 0 auto;
+  padding:10px;
+}
 
+#offre{
+background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
+}
+
+section {
+  background-color :transparent;
+}
