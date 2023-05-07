@@ -2,6 +2,11 @@
 
 
 
+body{
+  font-family: 'Lato', sans-serif;
+    
+    
+}
 main{
  
     margin-top: 500px;
@@ -16,15 +21,20 @@ main{
      margin-bottom: 150px;
   }
 
+
   #entete>img{
+    display: block;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 5%;
-    margin-left: 41%;
+    padding-top: 100px;
+    margin:auto;
     filter: drop-shadow(2px 3px 2px #684a37);
+     
   }
   
-#entete>h1{
+#entete>p{
+  
+  text-align: center;
   font-size: 50px;
   font-weight: 400;
   
@@ -91,6 +101,9 @@ padding-top: 0.5px;
 
 
 .accueil>div{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
     font-size: 30px;
     margin-left: 50px;
     margin-right: 200px;
@@ -143,7 +156,7 @@ section.prestations{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-row: 200px;
-  height: 570px;
+  height: 700px;
   
 }
 
@@ -164,19 +177,14 @@ section.prestations{
 
 .prestations h1{
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 100;
-  margin-bottom: 50px;
 }
 
 .prestations div{
   padding-left: 20px;
   padding-right: 20px;
   font-size: 18px;
-}
-
-.prestations p{
-  margin-bottom: 50px;
 }
 
   div.infos{
@@ -190,19 +198,17 @@ section.prestations{
   div.infos a{
     color: black;
   }
-h1.infos{
-  margin-top: 200px;
-}
-  section.infos{
+
+  section.infos-bas{
     margin-left: 300px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 300px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-right: 300px;
+      margin-bottom:100px;
   }
 
-  .infos div{
+  .infos-bas div{
     margin-top:15%;
     margin-left: 0;
   }
@@ -210,4 +216,3 @@ h1.infos{
   iframe{
     border-radius: 10px;
   }
-
