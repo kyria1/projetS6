@@ -36,7 +36,7 @@ section.prestations{
   grid-row: 400px;
   height: 600px;
     padding:10px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .prestations-autres {
@@ -46,7 +46,7 @@ background: none;
   grid-row: 400px;
   height: 600px;
     padding:10px;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
 
 .prestations>section{
