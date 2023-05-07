@@ -1,0 +1,118 @@
+@import url(commun.css);
+
+.accroche {
+    background: none;
+    height:400px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.accroche>h1{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    font-size: 60px;
+    color: #024644;
+}
+
+.accroche>#accroche{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+img {
+    height : 200px;
+    display: block;
+    margin: auto;
+}
+
+#detail , #tarif , .avis{
+    
+    padding : 1em;
+    margin-top: 1em;
+}
+
+#detail {
+    height: 950px;
+}
+
+#tarif {
+    height: 600px;;
+}
+
+.avis {
+    height: 250px;;
+}
+
+#detail>h3 , #tarif>h3 , .avis>h3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    font-size: 30px;
+    color: #024644;
+}
+
+#detail>h3 {
+    text-align: center;
+}
+
+.detail {
+    display : grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+}
+
+#detail>p , .detail>p {
+    font-size : 20px;
+    text-align : justify;
+}
+
+.tarif {
+    float:right;
+    padding-right: 60%;
+}
+
+li {
+    margin-bottom: 0.25rem;
+    font-size : 20px;
+}
+
+dt {
+    color: var(--couleur-6);
+    margin-bottom: 0.25rem;
+    font-size : 25px;
+    margin-left : 0.5rem;
+    margin-top : 1em;
+}
+
+dd {
+    margin-left: 2.5rem;
+    margin-bottom: 0.25rem;
+    font-size : 20px;
+}
+
+button {
+    background-color: var(--couleur-6);
+    font-size: medium;
+    padding: 10px 24px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    color :rgba(255, 255, 255, 0.637);
+    font-weight: bold;
+    font-family: 'Judson', serif;
+    border-style: none;
+}
+
+button:hover {
+    background-color: var(--couleur-3);
+    cursor: pointer;
+}
+
+

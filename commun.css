@@ -1,0 +1,121 @@
+:root {
+    --couleur-6: #046362;
+    --couleur-5: #438a89;
+    --couleur-4: #82b1b1;
+    --couleur-3: #c0d8d8;
+    --couleur-2: #febc65af;
+    --couleur-1: #febc65;
+    --couleur-0: #c8ac9a;
+  }
+  body h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+  }
+    
+  body{
+    
+    font-family: 'Lato', sans-serif;
+      background-image: url(./images/spa4.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      scroll-behavior: smooth;
+      transition: scroll-behavior 0.5s ease-in-out;
+  }
+  
+  section{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--couleur-6);
+    font-weight: bold;
+  }
+
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  .barre-de-menu div>li{
+    display: inline;
+    list-style: none;
+  }
+.barre-de-menu div>li>a{
+    margin: 0 10px; 
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+  
+  #logo{
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+
+  }
+
+  .barre-de-menu{
+    margin: 0;
+    padding: 20px 0;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    
+  }
+
+  nav{
+    height: 75px;
+  }
+ 
+  
+
+ .barre-de-menu> div#logonav{
+  display: inline;
+  display: grid;
+ grid-template-rows: 10px 10px 10px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  height: 200px;
+  margin-left: 0px;
+  margin-top: -60px;
+ 
+ }
+
+.barre-de-menu> div#logonav>a > img{
+  height: 150px;
+  grid-row-start: 1;
+  filter: drop-shadow(5px 5px 3px #00000050);
+}
+
+.barre-de-menu > div {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-right: auto;
+  margin-left: -100px;
+  margin-top: -50px;
+}
+
+main{
+  margin: auto;
+}
+
+footer {
+  background-color: var(--couleur-0);
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-top : 1em;
+  height : 50px;
+}
+
+#pieddepage a {
+  display:block;
+  margin-top: auto;
+  margin-left : 30px;
+}
