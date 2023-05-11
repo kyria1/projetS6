@@ -31,8 +31,13 @@
                         <li><a href="cils.html">Réhaussement de cils</a></li>
                     </ul>
                 </li>
-                <li><a href="galerie.html" class="actuel">Galerie photo</a></li>
-                <li><a href="plus.html">En savoir plus</a></li>
+                
+                <li><a href="galerie.html">Galerie photo</a></li>
+                <li id="menu-deroulantplus" class="menu-deroulant"><a>En savoir plus</a>
+                    <ul class="menu-deroulant">
+                        <li><a href="salon.html">Le salon</a></li>
+                        <li><a href="moi.html">L'esthéticienne</a></li>
+                    </ul></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li id="rdv"><a href="prendreRDV.html">Prendre rendez-vous</a></li>
             </div>
@@ -40,7 +45,50 @@
               
         </nav>
         <main>
-          <p>salon</p>
+            
+            <h1>Le salon</h1>
+          <section>
+            <div id="img">
+                <img id="cabine" src="./images/galerie/jointure.jpg" alt="cabine">
+            </div>
+            <p>Située dans une zone facile d'accès et à la sortie de la ville, j'ai créé à mon domicile un espace spécialement consacré à ce projet. Vous serez  accueillie dans un environnement calme et de façon individuelle afin de profiter de l’espace cabine pour vos soins corps ou du salon pour l’onglerie. 
+        </p></section>
+
+        <h1>La cabine</h1>
+        <section>
+            
+                <div id="img">
+                <img id="cabine" src="./images/galerie/cabine.jpg" alt="cabine">
+            </div>
+            <p>cabine</p> 
+        </section>
+
+        <h1>Le coin onglerie</h1>
+        <section>
+            <div id="img"><img id="coinongles" src="./images/galerie/coinongles.jpg" alt="cabine"></div>
+            <p>cabine</p> 
+        </section>
+
+        <h1>L'accès au salon</h1>
+        <section>
+            <div class="slideshow-container">
+                <div class="slideshow-slide">
+                  <img src="./images/galerie/acces.jpg" alt="Image 1">
+                </div>
+                <div class="slideshow-slide">
+                  <img src="./images/galerie/acces2.jpg" alt="Image 2">
+                </div>
+                <div class="slideshow-slide">
+                  <img src="./images/galerie/acces3.jpg" alt="Image 3">
+                </div>
+                <div class="slideshow-slide">
+                    <img src="./images/galerie/acces4.jpg" alt="Image 4">
+                  </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+            <p>cabine</p> 
+        </section>
         
             
             
@@ -56,6 +104,26 @@
             </div>
         </footer>
             
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
 
-    </body>
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slideshow-slide");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].classList.add("fade");
+}
+
+</script>
+   </body>
 </html>
