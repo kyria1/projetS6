@@ -9,6 +9,8 @@ main{
  
   
 #entete{
+    position: relative;
+    z-index: -1; 
     background: none ;
     height:700px;  
     color:#045755;
@@ -25,7 +27,7 @@ main{
   }
   
 #entete>h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   
 }
@@ -122,6 +124,14 @@ ul.plus a{
   color: white;
 }
 
+ul.plus li.menu-deroulant ul.menu-deroulant{
+  margin-left: 830px;
+  margin-top: 0;
+}
+
+ul.plus li li{
+background:none;
+}
 
 #logo{
     height: 300px;
@@ -177,18 +187,22 @@ section.prestations{
 
 .prestations p{
   margin-bottom: 50px;
+  height: 100px;
 }
+
+
 
   div.infos{
     padding-top: 50px;
     margin-top: 300px;
     margin-left: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
   }
   div.infos a{
     color: black;
+    padding-left: 20px;
   }
 h1.infos{
   margin-top: 200px;
