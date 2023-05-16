@@ -193,8 +193,14 @@ li.menu-deroulant:hover {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
+ul#menu-deroulant-plus li {
+  position:relative;
+  list-style: none;
+  left:600px;
+}
+
 li.menu-deroulant:hover ul.menu-deroulant {
-  text-shadow: 0px 5px 10px var(--couleur-4);
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
 }
 ul.menu-deroulant li a:hover {
   text-decoration: underline;
@@ -202,7 +208,7 @@ ul.menu-deroulant li a:hover {
 
 ul.menu-deroulant li a {
   display:block;
-  color: white;
+  color: var(--couleur-4);
   text-decoration: none;
   line-height: 30px;
   font-size: small;
