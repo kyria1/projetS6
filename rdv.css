@@ -25,6 +25,10 @@ section {
     background:none;
 }
 
+.fomulaire {
+    background-color:var(--couleur-2);
+}
+
 form {
   margin: 0 auto;
   width: 400px;
@@ -35,7 +39,6 @@ form {
 
 input {
     font-family: 'Playfair Display', serif;
-    color:var(--couleur-4);
 }
 
 label {
