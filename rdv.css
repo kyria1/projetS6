@@ -21,6 +21,10 @@
     text-justify:auto;
 }
 
+section {
+    background:none;
+}
+
 form {
   margin: 0 auto;
   width: 400px;
@@ -30,12 +34,14 @@ form {
 }
 
 input {
-    font-size:60px;
     font-family: 'Playfair Display', serif;
-    color:var(--couleur-6);
+    color:var(--couleur-4);
 }
 
 label {
+    font-size:30px;
+    font-family: 'Playfair Display', serif;
+    color:var(--couleur-6);
   display: block;
   margin-bottom: 10px;
 }
