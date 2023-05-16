@@ -137,7 +137,7 @@ footer a {
 }
 
 .haut-de-page a {
-    width:150px;
+    width:75px;
 }
 
 .haut-de-page {
@@ -148,9 +148,9 @@ footer a {
 .haut-de-page img {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
-    height:150px;
+    heigth:75px;
 }
 
 .barre-de-menu div #rdv a{
