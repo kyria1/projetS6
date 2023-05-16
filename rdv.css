@@ -1,2 +1,22 @@
 @import url(commun.css);
 
+.accroche {
+    background: none;
+    height:400px;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+
+.accroche h1 {
+    font-size:60px;
+    font-family: 'Playfair Display', serif;
+    color:var(--couleur-6);
+    text-align: center;
+}
+
+.accroche>#accroche{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align:center;
+    text-justify:auto;
+}
