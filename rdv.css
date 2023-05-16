@@ -25,11 +25,8 @@ section {
     background:none;
 }
 
-#fomulaire {
-    background-color:var(--couleur-2);
-}
-
 form {
+    background-color:var(--couleur-2);
   margin: 0 auto;
   width: 400px;
   padding: 1em;
