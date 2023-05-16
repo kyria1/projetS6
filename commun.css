@@ -174,9 +174,9 @@ ul.barre-de-menu li.menu-deroulant:hover ul.menu-deroulant {
 
 
 ul.menu-deroulant li {
-  position:relative;
+  
   list-style: none;
-  left:110px;
+  
 }
 
 li.menu-deroulant>a:hover {
@@ -191,22 +191,6 @@ li.menu-deroulant:hover {
   width: 350px;
   background-color: var(--couleur-4);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
-}
-
-li#menu-deroulant-plus:hover {
-  margin-right: 20px;
-  margin-left: 50px;
-    padding-top:10px;
-    padding-bottom:10px;
-  width: 350px;
-  background-color: var(--couleur-4);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.356);
-}
-
-ul#menu-deroulant-plus li {
-  position:relative;
-  list-style: none;
-  left:600px;
 }
 
 li.menu-deroulant:hover ul.menu-deroulant {
